@@ -11,8 +11,8 @@ describe('validator', () => {
       expect(typeof validator.isValid).toBe('function');
     });
 
-    it('debería retornar true para "4000123456789017"', () => {
-      expect(validator.isValid('4000123456789017')).toBe(true);
+    it('debería retornar true para "4083952015263"', () => {
+      expect(validator.isValid('4083952015263')).toBe(true);
     });
 
     it('debería retornar true para "79927398713"', () => {
@@ -20,7 +20,7 @@ describe('validator', () => {
     });
 
     it('debería retornar false para "1234567890"', () => {
-      expect(validator.isValid('')).toBe(false);
+      expect(validator.isValid('1234567890')).toBe(false);
     });
   });
 
