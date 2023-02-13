@@ -27,7 +27,7 @@ describe('validator', () => {
   describe('validator.maskify', () => {
     it('debería ser una función', () => {
       expect(typeof validator.maskify).toBe('function');
-    });
+    });                          
 
     it('Debería retornar "############5616" para "4556364607935616"', () => {
       expect(validator.maskify('4556364607935616')).toBe('############5616');
