@@ -3,18 +3,43 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
   <link rel="stylesheet" href="style.css">
+  <title><strong>Brotar, talleres de artes visuales</strong></title>
 </head>
-
 <body>
-  <form>
-  <label for="cardnumber">N° DE Tarjeta:</label>
- <input id="cardnumber" type="text" class="limpiarinput" pattern="[0-9]+" title="por favor ingresa el formato requerido"
-  placeholder="digita aqui tu tarjeta" required>
-  <button id="validate">probar</button>
-  <div id="result"></div>
-</form>
+  <header>
+    <h1>BROTAR</h1>
+    <h2>taller básico para aprender a dibujar.</h2>
+  </header>
+  <main class="todo">
+    <figure class="saludo"><img src="imagenes/gracias por tu compra.png" alt="inicio brotar" title="brote" width="250px"></figure>
+    <section class="hola">
+      <h3>¡Hola!</h3>
+      <p>Gracias por tu interés en el
+      <br>
+      <em>taller de dibujo básico online</em><strong> 2023.</strong>
+    </section> 
+     <section class="info"><img src="imagenes/info taller.png" alt="info" height="400xp"></section> 
+   <section class="pago">
+     <h3>pago del curso</h3> 
+     <p>Si deseas inscribirse en el taller puedes realizar el pago en esta sección</p>
+    </section>
+    <form class="tarjeta"> 
+     <label for="cardnumber"><strong>N° DE Tarjeta:</strong></label>
+      <input id="cardnumber" type="text" class="campo" pattern="[0-9]+" title="por favor ingresa el formato requerido"
+      placeholder="digita aqui tu tarjeta" required>
+      <button id="validate" class="boton">Confirmar</button> 
+      <div id="result"></div>
+    </form>
+    <br>
+    <br>
+    <footer class="datos">
+      <p>Si tienes alguna duda o sugerencia no dudes en decirme al correo</p>
+      <p><strong><em>tallerdeartesvisuales@brotar.com</em></strong></p>
+      <br>
+      <p><strong>Slds!</strong></p>
+    </footer>
+ </main>
   <script src="index.js" type="module"></script>
 </body>
 
