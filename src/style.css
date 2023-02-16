@@ -1,10 +1,8 @@
-/*creando mi propio estilo*/
-
 header{
     background: rgb(230, 195, 200);
     color: rgb(139, 102, 54);
     text-align: center;
-    font-family: ,Courier New,georgia,Courier, monospace, Tahoma, sans-serif;
+    font-family:Courier New,georgia,Courier, monospace, Tahoma, sans-serif;
     font-size: 35px;
    padding: 10px 50px 10px 50px;
    margin-block-end: 10px;

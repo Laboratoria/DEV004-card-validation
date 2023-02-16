@@ -4,8 +4,7 @@ const div = document.getElementById("result");
 buttonValidate.addEventListener("click", function (e) {
   e.preventDefault()
   const cardNumber = document.getElementById("cardnumber").value;
-  //document.getElementById("cardNumber").value = "";
-  if (cardNumber.length ===0 || cardNumber.length>=17 || /^\s+$/.test(cardNumber) || /[a-zA-Z]/i.test(cardNumber)){//|| ("[a-zA-Z]","g").test(cardNumber
+  if (cardNumber.length ===0 || cardNumber.length>=17 || /^\s+$/.test(cardNumber) || /[a-zA-Z]/i.test(cardNumber)){
     alert("formato incorrecto");
   }else{
     const valid = validator.isValid(cardNumber)
@@ -17,5 +16,4 @@ buttonValidate.addEventListener("click", function (e) {
       div.innerHTML = "tarjeta invalida";
     }
   }
-  document.getElementById("cardNumber").value = ""
 })
