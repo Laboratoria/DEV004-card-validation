@@ -47,4 +47,4 @@ imagenes/prototipo de baja fidelidad.jpg
 Prototipo de alta fidelidad
 imagenes/1er prototipo alta fidelidad.png
 
-Para concluir espero que te sea util este readmi y que la pagina sea de tu agrado, ya que esta echa con mucho cariño.
+Para concluir espero que te sea util este readmi y que la pagina sea de tu agrado, ya que se hizo con mucho cariño.
